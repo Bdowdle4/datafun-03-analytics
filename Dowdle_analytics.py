@@ -237,10 +237,10 @@ def process_json_data(json_folder_name, json_filename, output_filename):
         output_file_path.write_text(result, encoding='utf-8')
         print(f"JSON data processed and results saved to {output_file_path}")
 
-    except KeyError as e:
+    except KeyError as eeeek:
         print(eeeek)
-    except Exception as e:
-        print(f"Error processing JSON data: {eeeek}")
+    except Exception as eeeex:
+        print(f"Error processing JSON data: {eeeex}")
 
 #8. Main Function - Implement a main() function to test the folder creation functions and demonstrate 
 #the use of imported modules.
